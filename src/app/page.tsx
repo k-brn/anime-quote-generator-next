@@ -32,7 +32,7 @@ export default function Home() {
           </button>
         </form>
       </div>
-      <footer className="text-center text-gray-500 mt-4">
+      <footer className="absolute bottom-0 text-center text-gray-500 mt-4">
         Created by Korrier with ❤️
       </footer>
     </div>
