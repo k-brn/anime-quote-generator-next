@@ -12,8 +12,8 @@ export default function Home() {
   };
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100">
-      <div className="p-4 shadow-md bg-white rounded-md">
-        <h1 className="text-2xl font-semibold mb-4 text-black">
+      <div className="mx-auto p-4 max-w-[544px] shadow-md bg-white rounded-md text-center">
+        <h1 className="text-2xl font-semibold mb-4 text-black w-full flex items-center justify-center">
           🔮 Your gateway to anime wisdom awaits! 🎯
         </h1>
         <form onSubmit={handleSubmit} className="space-y-3">
@@ -21,7 +21,7 @@ export default function Home() {
             type="text"
             value={value}
             onChange={(e) => setValue(e.target.value)}
-            className="w-full p-2 border border-gray-300 rounded text-black"
+            className="w-full p-2 border border-gray-300 rounded text-black max-w-full"
             placeholder="Enter anime name (e.g. Attack on Titan, Tokyo Ghoul, Berserk)"
           />
           <button
