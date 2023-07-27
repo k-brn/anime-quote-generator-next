@@ -39,7 +39,7 @@ async function Quote({ params }: Params) {
           </span>
         </div>
         <div className="text-center text-black md:text-xl my-4">
-          <span className="font-bold">"{quote}"</span>
+          <span className="font-bold">&quot;{quote}&quot;</span>
           <br />
           <span className="block text-center">
             - {character} ({anime})
@@ -50,7 +50,7 @@ async function Quote({ params }: Params) {
         </p>
       </div>
       <footer className="absolute bottom-0 left-0 right-0 text-center text-gray-500 mt-4">
-        Created by Korrier with ❤️
+        Created by Korrier with &hearts;
       </footer>
     </div>
   );
