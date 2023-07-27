@@ -46,7 +46,7 @@ async function Quote({ params }: Params) {
           </span>
         </div>
         <p className="text-center mt-4 text-gray-500">
-          😳 For now, please use your browser&apos;s back button.
+          For now, please use your browser&apos;s back button.
         </p>
       </div>
       <footer className="absolute bottom-0 left-0 right-0 text-center text-gray-500 mt-4">
