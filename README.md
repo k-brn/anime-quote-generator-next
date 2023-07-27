@@ -23,7 +23,7 @@
 
 ## How To Use:
 
-1. Visit the [Anime Quote Generator website]().
+1. Visit the [Anime Quote Generator website](https://anime-quote-generator-next.vercel.app).
 2. Enter the name of the anime you want a quote from in the input field.
 3. Click the "Submit" button.
 4. The app will display a random quote from the specified anime, along with the character's name and the anime title.
