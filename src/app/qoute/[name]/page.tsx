@@ -50,7 +50,7 @@ async function Quote({ params }: Params) {
         </p>
       </div>
       <footer className="absolute bottom-0 left-0 right-0 text-center text-gray-500 mt-4">
-        Created by Korrier with &hearts;
+        Created by Korrier with ❤️
       </footer>
     </div>
   );
